@@ -1,0 +1,45 @@
+{
+  "model": "/dataset1/zailong/models/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "dtype": "float32",
+  "layers": [
+    0,
+    5,
+    9,
+    14,
+    19,
+    23,
+    28
+  ],
+  "pooling": [
+    "last",
+    "mean"
+  ],
+  "ranks": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "alphas": [
+    0.01,
+    0.1,
+    1,
+    10
+  ],
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "primary": {
+    "layer": 14,
+    "pool": "mean",
+    "split": "joint",
+    "metric": "mse_lowrank_minus_shift"
+  },
+  "input": "raw text; add_special_tokens=False; no chat template",
+  "data_seed": 20260928
+}

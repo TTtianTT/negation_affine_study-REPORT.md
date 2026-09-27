@@ -1,0 +1,15 @@
+analyzed layer=0 pool=last 9.5s
+analyzed layer=0 pool=mean 12.3s
+analyzed layer=5 pool=last 12.6s
+analyzed layer=5 pool=mean 12.5s
+analyzed layer=9 pool=last 12.7s
+analyzed layer=9 pool=mean 12.4s
+analyzed layer=14 pool=last 12.4s
+analyzed layer=14 pool=mean 12.3s
+analyzed layer=19 pool=last 12.2s
+analyzed layer=19 pool=mean 12.6s
+analyzed layer=23 pool=last 12.3s
+analyzed layer=23 pool=mean 12.3s
+analyzed layer=28 pool=last 12.3s
+analyzed layer=28 pool=mean 12.5s
+DONE

@@ -1,0 +1,14 @@
+{
+  "ridge_vs_primal_maxerr": 3.3306690738754696e-14,
+  "rank_objectives": [
+    408.4173548515376,
+    395.0359578367435,
+    376.2186664205009,
+    369.2858604568414
+  ],
+  "unique_proposition_groups": 480,
+  "heldout_axes_disjoint": true,
+  "no_cross_split_sentence_duplicates": true,
+  "cache_hash_matches": true,
+  "max_padding_relative_error": 1.3153778127161786e-05
+}

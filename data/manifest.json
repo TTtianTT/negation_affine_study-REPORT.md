@@ -1,0 +1,16 @@
+{
+  "source": "Controlled templates authored by AI assistant; no external corpus or generation API",
+  "n_pairs": 480,
+  "n_texts": 2061,
+  "splits": {
+    "dev": 48,
+    "expression": 24,
+    "iid": 24,
+    "joint": 96,
+    "template": 24,
+    "topic": 96,
+    "train": 168
+  },
+  "sha256": "13752abd6413790c09b3948d2390ea1e21e82d876ccbbfe0cb673ea6c1a69cee",
+  "human_review": "No independent human reviewer available; assistant audit recorded separately"
+}

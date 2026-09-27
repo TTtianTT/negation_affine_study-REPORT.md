@@ -1,0 +1,15 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 130.44it/s]
+extracted 32/2061 elapsed=5.9s
+extracted 352/2061 elapsed=6.1s
+extracted 672/2061 elapsed=6.4s
+extracted 992/2061 elapsed=6.6s
+extracted 1312/2061 elapsed=6.8s
+extracted 1632/2061 elapsed=7.0s
+extracted 1952/2061 elapsed=7.2s
+Traceback (most recent call last):
+  File "/dataset1/zailong/workspace/negation_affine_study/scripts/extract.py", line 33, in <module>
+    a=arrays[k][j]; b=one[k][0]; err=float(np.linalg.norm(a-b)/(np.linalg.norm(b)+1e-8)); checks.append(dict(index=j,layer=k[0],pool=k[1],relative_error=err)); assert err<0.025,(j,k,err)
+                                                                                                                                                                       ^^^^^^^^^
+AssertionError: (31, (28, 'last'), 0.026637785136699677)
+srun: error: node01: task 0: Exited with exit code 1

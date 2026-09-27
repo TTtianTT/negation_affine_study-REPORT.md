@@ -1,0 +1,3 @@
+# Preserve CSV writer's CRLF bytes and reproducibility hashes.
+*.csv -text whitespace=cr-at-eol
+*.png binary

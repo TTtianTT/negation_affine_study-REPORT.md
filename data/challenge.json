@@ -1,0 +1,58 @@
+[
+  {
+    "category": "量词",
+    "pos": "所有学生都交了作业。",
+    "contrast": "并非所有学生都交了作业。",
+    "alternative": "所有学生都没有交作业。",
+    "contrast_relation": "propositional_negation",
+    "gold_negative_key": "contrast"
+  },
+  {
+    "category": "情态",
+    "pos": "小林必须参加会议。",
+    "contrast": "小林不必参加会议。",
+    "alternative": "小林必须不参加会议。",
+    "contrast_relation": "propositional_negation",
+    "gold_negative_key": "contrast"
+  },
+  {
+    "category": "范围",
+    "pos": "小林只阅读了报告。",
+    "contrast": "小林并非只阅读了报告。",
+    "alternative": "小林没有阅读报告。",
+    "contrast_relation": "propositional_negation",
+    "gold_negative_key": "contrast"
+  },
+  {
+    "category": "双重否定",
+    "pos": "小林完成了任务。",
+    "contrast": "小林并非没有完成任务。",
+    "alternative": "小林没有完成任务。",
+    "contrast_relation": "double_negation_near_equivalence",
+    "gold_negative_key": "alternative"
+  },
+  {
+    "category": "反义词",
+    "pos": "今天很冷。",
+    "contrast": "今天很热。",
+    "alternative": "今天不冷。",
+    "contrast_relation": "antonym_not_complement",
+    "gold_negative_key": "alternative"
+  },
+  {
+    "category": "情感",
+    "pos": "小林喜欢这部电影。",
+    "contrast": "小林讨厌这部电影。",
+    "alternative": "小林不喜欢这部电影。",
+    "contrast_relation": "sentiment_opposition_not_complement",
+    "gold_negative_key": "alternative"
+  },
+  {
+    "category": "否定词非命题否定",
+    "pos": "小林阅读了关于否定的论文。",
+    "contrast": "小林阅读了关于肯定的论文。",
+    "alternative": "小林没有阅读关于否定的论文。",
+    "contrast_relation": "topic_word_substitution",
+    "gold_negative_key": "alternative"
+  }
+]

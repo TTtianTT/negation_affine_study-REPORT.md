@@ -1,0 +1,16 @@
+# Reproducible binary caches stay local; token audit remains versioned.
+/cache/*.npy
+/cache/operator_*.npz
+
+# Python runtime and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local credentials / editor files.
+.env
+.env.*
+!.env.example
+.DS_Store

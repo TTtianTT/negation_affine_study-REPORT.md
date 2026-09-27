@@ -1,0 +1,11 @@
+{
+  "metrics.csv": 6552,
+  "grid.csv": 1176,
+  "choices.csv": 42,
+  "probes.csv": 1176,
+  "primary_pairs.csv": 15624,
+  "removal.csv": 45,
+  "surface_operator.csv": 72,
+  "max_reloaded_operator_mse_difference": 4.629896466212813e-11,
+  "all_shapes_and_hashes_valid": true
+}
