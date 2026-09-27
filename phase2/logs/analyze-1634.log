@@ -1,0 +1,28 @@
+C seed 17 complete
+C seed 29 complete
+C seed 43 complete
+B l0_mean 17 seconds 49.9
+B l0_mean 29 seconds 97.7
+B l0_mean 43 seconds 146.0
+A l0_mean negation seconds 165.3
+A l0_mean time seconds 184.5
+A l0_mean emphasis seconds 203.5
+B l14_mean 17 seconds 253.0
+B l14_mean 29 seconds 301.3
+B l14_mean 43 seconds 348.5
+A l14_mean negation seconds 367.6
+A l14_mean time seconds 386.3
+A l14_mean emphasis seconds 405.0
+B l14_last 17 seconds 456.2
+B l14_last 29 seconds 503.9
+B l14_last 43 seconds 551.2
+A l14_last negation seconds 570.1
+A l14_last time seconds 589.6
+A l14_last emphasis seconds 609.0
+B l28_last 17 seconds 661.1
+B l28_last 29 seconds 708.3
+B l28_last 43 seconds 755.1
+A l28_last negation seconds 774.4
+A l28_last time seconds 793.8
+A l28_last emphasis seconds 813.1
+AB complete 818.7960877418518

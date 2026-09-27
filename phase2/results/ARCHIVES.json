@@ -1,0 +1,16 @@
+[
+  {
+    "file": "b_per_query.csv",
+    "archive": "b_per_query.csv.gz",
+    "bytes": 122288121,
+    "sha256": "d1d9964f3c8e0a7a5d0d90fbc09005bea373b03cc1673bdc3a96152f351952fa",
+    "archive_sha256": "b5b02994c5af36eda7523730bf5e6f71ab65c94b7278d154d5e417a6de1cd6e3"
+  },
+  {
+    "file": "a_per_item.jsonl",
+    "archive": "a_per_item.jsonl.gz",
+    "bytes": 58544051,
+    "sha256": "f47bf206a76aa38717b2332609f27014035f5f7387b21712733db7dd4cc7a703",
+    "archive_sha256": "a9309ccb262958ded767a15b7fe7f3f0240eae55c450bd8a1f45507e7a351204"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "seed": 17,
+    "method": "identity",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 17,
+    "method": "shift",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 17,
+    "method": "rank1",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 17,
+    "method": "lowrank",
+    "errors": {
+      "mse": 8.881784197001252e-16,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 17,
+    "method": "full_delta",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 17,
+    "method": "full_affine",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 29,
+    "method": "identity",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 29,
+    "method": "shift",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 29,
+    "method": "rank1",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 29,
+    "method": "lowrank",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 29,
+    "method": "full_delta",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 29,
+    "method": "full_affine",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 43,
+    "method": "identity",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 43,
+    "method": "shift",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 43,
+    "method": "rank1",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 43,
+    "method": "lowrank",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 43,
+    "method": "full_delta",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  },
+  {
+    "seed": 43,
+    "method": "full_affine",
+    "errors": {
+      "mse": 0.0,
+      "recall1": 0.0,
+      "mrr": 0.0
+    }
+  }
+]

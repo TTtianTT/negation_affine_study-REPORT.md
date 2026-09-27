@@ -1,0 +1,496 @@
+[
+  {
+    "id": "B00-0-0",
+    "split": "train",
+    "pos": [
+      "周一当天，林岚检查了望远镜镜面。",
+      "林岚在周一当天检查过望远镜镜面。"
+    ],
+    "neg": [
+      "周一当天，林岚没有检查望远镜镜面。",
+      "周一当天，林岚未检查望远镜镜面。",
+      "“周一当天，林岚检查了望远镜镜面”这一说法不属实。",
+      "周一当天，林岚不曾检查望远镜镜面。",
+      "周一当天，林岚从未检查望远镜镜面。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有检查望远镜镜面。",
+      "周一当天，林岚不必检查望远镜镜面。",
+      "周一当天，林岚并非只检查了望远镜镜面。",
+      "周一当天，林岚没有检查船体焊缝。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B00-0-2",
+    "split": "dev",
+    "pos": [
+      "周一当天，许澄检查了望远镜镜面。",
+      "许澄在周一当天检查过望远镜镜面。"
+    ],
+    "neg": [
+      "周一当天，许澄没有检查望远镜镜面。",
+      "周一当天，许澄未检查望远镜镜面。",
+      "“周一当天，许澄检查了望远镜镜面”这一说法不属实。",
+      "周一当天，许澄不曾检查望远镜镜面。",
+      "周一当天，许澄从未检查望远镜镜面。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有检查望远镜镜面。",
+      "周一当天，许澄不必检查望远镜镜面。",
+      "周一当天，许澄并非只检查了望远镜镜面。",
+      "周一当天，许澄没有检查船体焊缝。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B00-1-0",
+    "split": "train",
+    "pos": [
+      "周一当天，林岚核对了星表坐标。",
+      "林岚在周一当天核对过星表坐标。"
+    ],
+    "neg": [
+      "周一当天，林岚没有核对星表坐标。",
+      "周一当天，林岚未核对星表坐标。",
+      "“周一当天，林岚核对了星表坐标”这一说法不属实。",
+      "周一当天，林岚不曾核对星表坐标。",
+      "周一当天，林岚从未核对星表坐标。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有核对星表坐标。",
+      "周一当天，林岚不必核对星表坐标。",
+      "周一当天，林岚并非只核对了星表坐标。",
+      "周一当天，林岚没有核对航行参数。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B00-1-1",
+    "split": "dev",
+    "pos": [
+      "周一当天，周宁核对了星表坐标。",
+      "周宁在周一当天核对过星表坐标。"
+    ],
+    "neg": [
+      "周一当天，周宁没有核对星表坐标。",
+      "周一当天，周宁未核对星表坐标。",
+      "“周一当天，周宁核对了星表坐标”这一说法不属实。",
+      "周一当天，周宁不曾核对星表坐标。",
+      "周一当天，周宁从未核对星表坐标。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有核对星表坐标。",
+      "周一当天，周宁不必核对星表坐标。",
+      "周一当天，周宁并非只核对了星表坐标。",
+      "周一当天，周宁没有核对航行参数。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B00-2-2",
+    "split": "train",
+    "pos": [
+      "周一当天，许澄整理了观测日志。",
+      "许澄在周一当天整理过观测日志。"
+    ],
+    "neg": [
+      "周一当天，许澄没有整理观测日志。",
+      "周一当天，许澄未整理观测日志。",
+      "“周一当天，许澄整理了观测日志”这一说法不属实。",
+      "周一当天，许澄不曾整理观测日志。",
+      "周一当天，许澄从未整理观测日志。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有整理观测日志。",
+      "周一当天，许澄不必整理观测日志。",
+      "周一当天，许澄并非只整理了观测日志。",
+      "周一当天，许澄没有整理维修档案。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B00-2-0",
+    "split": "dev",
+    "pos": [
+      "周一当天，林岚整理了观测日志。",
+      "林岚在周一当天整理过观测日志。"
+    ],
+    "neg": [
+      "周一当天，林岚没有整理观测日志。",
+      "周一当天，林岚未整理观测日志。",
+      "“周一当天，林岚整理了观测日志”这一说法不属实。",
+      "周一当天，林岚不曾整理观测日志。",
+      "周一当天，林岚从未整理观测日志。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有整理观测日志。",
+      "周一当天，林岚不必整理观测日志。",
+      "周一当天，林岚并非只整理了观测日志。",
+      "周一当天，林岚没有整理维修档案。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B00-3-1",
+    "split": "train",
+    "pos": [
+      "周一当天，周宁记录了星光强度。",
+      "周宁在周一当天记录过星光强度。"
+    ],
+    "neg": [
+      "周一当天，周宁没有记录星光强度。",
+      "周一当天，周宁未记录星光强度。",
+      "“周一当天，周宁记录了星光强度”这一说法不属实。",
+      "周一当天，周宁不曾记录星光强度。",
+      "周一当天，周宁从未记录星光强度。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有记录星光强度。",
+      "周一当天，周宁不必记录星光强度。",
+      "周一当天，周宁并非只记录了星光强度。",
+      "周一当天，周宁没有记录舱内湿度。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B00-3-3",
+    "split": "dev",
+    "pos": [
+      "周一当天，陈遥记录了星光强度。",
+      "陈遥在周一当天记录过星光强度。"
+    ],
+    "neg": [
+      "周一当天，陈遥没有记录星光强度。",
+      "周一当天，陈遥未记录星光强度。",
+      "“周一当天，陈遥记录了星光强度”这一说法不属实。",
+      "周一当天，陈遥不曾记录星光强度。",
+      "周一当天，陈遥从未记录星光强度。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有记录星光强度。",
+      "周一当天，陈遥不必记录星光强度。",
+      "周一当天，陈遥并非只记录了星光强度。",
+      "周一当天，陈遥没有记录舱内湿度。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B00-4-0",
+    "split": "train",
+    "pos": [
+      "周一当天，林岚标记了星云位置。",
+      "林岚在周一当天标记过星云位置。"
+    ],
+    "neg": [
+      "周一当天，林岚没有标记星云位置。",
+      "周一当天，林岚未标记星云位置。",
+      "“周一当天，林岚标记了星云位置”这一说法不属实。",
+      "周一当天，林岚不曾标记星云位置。",
+      "周一当天，林岚从未标记星云位置。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有标记星云位置。",
+      "周一当天，林岚不必标记星云位置。",
+      "周一当天，林岚并非只标记了星云位置。",
+      "周一当天，林岚没有标记漏水位置。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B00-4-2",
+    "split": "dev",
+    "pos": [
+      "周一当天，许澄标记了星云位置。",
+      "许澄在周一当天标记过星云位置。"
+    ],
+    "neg": [
+      "周一当天，许澄没有标记星云位置。",
+      "周一当天，许澄未标记星云位置。",
+      "“周一当天，许澄标记了星云位置”这一说法不属实。",
+      "周一当天，许澄不曾标记星云位置。",
+      "周一当天，许澄从未标记星云位置。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有标记星云位置。",
+      "周一当天，许澄不必标记星云位置。",
+      "周一当天，许澄并非只标记了星云位置。",
+      "周一当天，许澄没有标记漏水位置。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B00-5-0",
+    "split": "train",
+    "pos": [
+      "周一当天，林岚清理了穹顶轨道。",
+      "林岚在周一当天清理过穹顶轨道。"
+    ],
+    "neg": [
+      "周一当天，林岚没有清理穹顶轨道。",
+      "周一当天，林岚未清理穹顶轨道。",
+      "“周一当天，林岚清理了穹顶轨道”这一说法不属实。",
+      "周一当天，林岚不曾清理穹顶轨道。",
+      "周一当天，林岚从未清理穹顶轨道。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有清理穹顶轨道。",
+      "周一当天，林岚不必清理穹顶轨道。",
+      "周一当天，林岚并非只清理了穹顶轨道。",
+      "周一当天，林岚没有清理甲板积水。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B00-5-1",
+    "split": "dev",
+    "pos": [
+      "周一当天，周宁清理了穹顶轨道。",
+      "周宁在周一当天清理过穹顶轨道。"
+    ],
+    "neg": [
+      "周一当天，周宁没有清理穹顶轨道。",
+      "周一当天，周宁未清理穹顶轨道。",
+      "“周一当天，周宁清理了穹顶轨道”这一说法不属实。",
+      "周一当天，周宁不曾清理穹顶轨道。",
+      "周一当天，周宁从未清理穹顶轨道。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有清理穹顶轨道。",
+      "周一当天，周宁不必清理穹顶轨道。",
+      "周一当天，周宁并非只清理了穹顶轨道。",
+      "周一当天，周宁没有清理甲板积水。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B01-0-1",
+    "split": "dev",
+    "pos": [
+      "周一当天，周宁检查了船体焊缝。",
+      "周宁在周一当天检查过船体焊缝。"
+    ],
+    "neg": [
+      "周一当天，周宁没有检查船体焊缝。",
+      "周一当天，周宁未检查船体焊缝。",
+      "“周一当天，周宁检查了船体焊缝”这一说法不属实。",
+      "周一当天，周宁不曾检查船体焊缝。",
+      "周一当天，周宁从未检查船体焊缝。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有检查船体焊缝。",
+      "周一当天，周宁不必检查船体焊缝。",
+      "周一当天，周宁并非只检查了船体焊缝。",
+      "周一当天，周宁没有检查矿井支架。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B02-0-0",
+    "split": "dev",
+    "pos": [
+      "周一当天，林岚检查了矿井支架。",
+      "林岚在周一当天检查过矿井支架。"
+    ],
+    "neg": [
+      "周一当天，林岚没有检查矿井支架。",
+      "周一当天，林岚未检查矿井支架。",
+      "“周一当天，林岚检查了矿井支架”这一说法不属实。",
+      "周一当天，林岚不曾检查矿井支架。",
+      "周一当天，林岚从未检查矿井支架。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有检查矿井支架。",
+      "周一当天，林岚不必检查矿井支架。",
+      "周一当天，林岚并非只检查了矿井支架。",
+      "周一当天，林岚没有检查混音设备。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B03-0-3",
+    "split": "dev",
+    "pos": [
+      "周一当天，陈遥检查了混音设备。",
+      "陈遥在周一当天检查过混音设备。"
+    ],
+    "neg": [
+      "周一当天，陈遥没有检查混音设备。",
+      "周一当天，陈遥未检查混音设备。",
+      "“周一当天，陈遥检查了混音设备”这一说法不属实。",
+      "周一当天，陈遥不曾检查混音设备。",
+      "周一当天，陈遥从未检查混音设备。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有检查混音设备。",
+      "周一当天，陈遥不必检查混音设备。",
+      "周一当天，陈遥并非只检查了混音设备。",
+      "周一当天，陈遥没有检查纸张纤维。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B04-0-2",
+    "split": "dev",
+    "pos": [
+      "周一当天，许澄检查了纸张纤维。",
+      "许澄在周一当天检查过纸张纤维。"
+    ],
+    "neg": [
+      "周一当天，许澄没有检查纸张纤维。",
+      "周一当天，许澄未检查纸张纤维。",
+      "“周一当天，许澄检查了纸张纤维”这一说法不属实。",
+      "周一当天，许澄不曾检查纸张纤维。",
+      "周一当天，许澄从未检查纸张纤维。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有检查纸张纤维。",
+      "周一当天，许澄不必检查纸张纤维。",
+      "周一当天，许澄并非只检查了纸张纤维。",
+      "周一当天，许澄没有检查道岔状态。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B05-0-1",
+    "split": "dev",
+    "pos": [
+      "周一当天，周宁检查了道岔状态。",
+      "周宁在周一当天检查过道岔状态。"
+    ],
+    "neg": [
+      "周一当天，周宁没有检查道岔状态。",
+      "周一当天，周宁未检查道岔状态。",
+      "“周一当天，周宁检查了道岔状态”这一说法不属实。",
+      "周一当天，周宁不曾检查道岔状态。",
+      "周一当天，周宁从未检查道岔状态。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有检查道岔状态。",
+      "周一当天，周宁不必检查道岔状态。",
+      "周一当天，周宁并非只检查了道岔状态。",
+      "周一当天，周宁没有检查滤池结构。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B06-0-0",
+    "split": "dev",
+    "pos": [
+      "周一当天，林岚检查了滤池结构。",
+      "林岚在周一当天检查过滤池结构。"
+    ],
+    "neg": [
+      "周一当天，林岚没有检查滤池结构。",
+      "周一当天，林岚未检查滤池结构。",
+      "“周一当天，林岚检查了滤池结构”这一说法不属实。",
+      "周一当天，林岚不曾检查滤池结构。",
+      "周一当天，林岚从未检查滤池结构。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有检查滤池结构。",
+      "周一当天，林岚不必检查滤池结构。",
+      "周一当天，林岚并非只检查了滤池结构。",
+      "周一当天，林岚没有检查起落架轮胎。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  },
+  {
+    "id": "B07-0-3",
+    "split": "dev",
+    "pos": [
+      "周一当天，陈遥检查了起落架轮胎。",
+      "陈遥在周一当天检查过起落架轮胎。"
+    ],
+    "neg": [
+      "周一当天，陈遥没有检查起落架轮胎。",
+      "周一当天，陈遥未检查起落架轮胎。",
+      "“周一当天，陈遥检查了起落架轮胎”这一说法不属实。",
+      "周一当天，陈遥不曾检查起落架轮胎。",
+      "周一当天，陈遥从未检查起落架轮胎。"
+    ],
+    "hard": [
+      "周一当天，另一位同事没有检查起落架轮胎。",
+      "周一当天，陈遥不必检查起落架轮胎。",
+      "周一当天，陈遥并非只检查了起落架轮胎。",
+      "周一当天，陈遥没有检查桥墩表面。"
+    ],
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "equivalence": "Under explicit bounded-time event reading, positives assert occurrence and all negatives deny it.",
+    "naturalness": "Acceptable controlled Chinese; 从未 may invite broader temporal scope without the explicit 周一当天. Domain collocations are controlled, not naturally sampled.",
+    "limitations": "No human gold; no claim that aspectual pragmatics are identical."
+  }
+]

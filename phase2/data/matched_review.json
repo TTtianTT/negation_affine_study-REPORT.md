@@ -1,0 +1,42 @@
+[
+  {
+    "id": "B00-0-0",
+    "source": "周一当天，林岚检查了望远镜镜面。",
+    "target": "周一当天，林岚曾检查望远镜镜面。",
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "note": "Formal written 曾V states a past occurrence in the explicit time window; removes 了 without creating negation. No independent human equivalence judgment."
+  },
+  {
+    "id": "B01-4-0",
+    "source": "周一当天，林岚标记了漏水位置。",
+    "target": "周一当天，林岚曾标记漏水位置。",
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "note": "Formal written 曾V states a past occurrence in the explicit time window; removes 了 without creating negation. No independent human equivalence judgment."
+  },
+  {
+    "id": "B03-2-0",
+    "source": "周一当天，林岚整理了采访录音。",
+    "target": "周一当天，林岚曾整理采访录音。",
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "note": "Formal written 曾V states a past occurrence in the explicit time window; removes 了 without creating negation. No independent human equivalence judgment."
+  },
+  {
+    "id": "B05-0-0",
+    "source": "周一当天，林岚检查了道岔状态。",
+    "target": "周一当天，林岚曾检查道岔状态。",
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "note": "Formal written 曾V states a past occurrence in the explicit time window; removes 了 without creating negation. No independent human equivalence judgment."
+  },
+  {
+    "id": "B06-4-0",
+    "source": "周一当天，林岚标记了渗漏位置。",
+    "target": "周一当天，林岚曾标记渗漏位置。",
+    "reviewer": "AI assistant, not independent human",
+    "status": "AI-reviewed",
+    "note": "Formal written 曾V states a past occurrence in the explicit time window; removes 了 without creating negation. No independent human equivalence judgment."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-27T18:48:12.767380+00:00",
+  "data_sha256": "f49b07dc839597c38a54a868e60704ffe7a50a0b1aaca482e8de4ba5ca3d1868",
+  "n": 384,
+  "exact_matched": 384,
+  "selection": "token statistics only; no phase2 performance read",
+  "status": "exploratory supplement; does not modify primary B/C data or endpoint"
+}

@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-27T17:55:21.689289+00:00",
+  "files": {
+    "config.json": "c4dd507591cda2ef424358d7b63fee3899919bfc78932532154fa568a8963b48",
+    "data/a_edits.json": "ec6ae30309a3c43c420de2b9ec20ab5bc8c14194e3a1cd616868c4099c06f328",
+    "data/b_propositions.json": "6d0a65de0caa34d2d6f0fd71063c153714705440bc213c47e62b63f792acaaca",
+    "data/c_confirmation.json": "3bf5b42bcabcc35a50008694d7034e0792272988adb0cb8752a7706925f01947",
+    "data/challenge.json": "ab3167dd6a7ae9020782a66368c666ba04a595e722db3cfaf10e32f4349732e0",
+    "data/manifest.json": "299f44ef92dbb6f0a3360b9efd8b3cb91990a64e80adff788327dca4c22839a0",
+    "data/review.json": "4c760216e89c1d64dc3478cb38974a573b90fd8dce3c60f8482fb3daf6774783",
+    "data/review_pending.json": "1f86803875335b85c6aadb44c0a5247c3168190a0be00a3b7a9130ec88c8efe4",
+    "data/texts.json": "6e3491146600059e3fa2b16dbd4ae4a5c353d9dc097c3e18dbacaceabf5896e7"
+  }
+}

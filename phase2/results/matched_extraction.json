@@ -1,0 +1,38 @@
+{
+  "seconds": 13.938122987747192,
+  "job_id": "1637",
+  "gpu_count": 1,
+  "checks": [
+    {
+      "layer": 0,
+      "index": 0,
+      "relative_error": 0.0
+    },
+    {
+      "layer": 14,
+      "index": 0,
+      "relative_error": 7.489877589250682e-07
+    },
+    {
+      "layer": 0,
+      "index": 31,
+      "relative_error": 0.0
+    },
+    {
+      "layer": 14,
+      "index": 31,
+      "relative_error": 6.339469109661877e-07
+    },
+    {
+      "layer": 0,
+      "index": 383,
+      "relative_error": 0.0
+    },
+    {
+      "layer": 14,
+      "index": 383,
+      "relative_error": 6.599040034416248e-07
+    }
+  ],
+  "data_sha256": "f49b07dc839597c38a54a868e60704ffe7a50a0b1aaca482e8de4ba5ca3d1868"
+}

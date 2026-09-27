@@ -1,0 +1,22 @@
+{
+  "ab_metrics.csv": 6696,
+  "b_per_query.csv": 304128,
+  "selection_grid.csv": 6048,
+  "c_metrics.csv": 72,
+  "c_per_item.csv": 6912,
+  "c_frozen_b_per_query.csv": 41472,
+  "matched_metrics.csv": 360,
+  "matched_per_item.csv": 23040,
+  "c_expanded_candidates.csv": 1728,
+  "A_per_item_count": 138240,
+  "frozen_data_unchanged": true,
+  "protocol_unchanged": true,
+  "phase1_tracked_files_unchanged": true,
+  "phase1_all_caches_unchanged": true,
+  "matched_supplement_unchanged": true,
+  "candidate_labels_and_uniqueness": true,
+  "centroid_loss_identity_error": 5.551115123125783e-17,
+  "identity_never_labeled_positive": true,
+  "primary_effect_reaggregated": 0.020833333333333332,
+  "report_links_exist": true
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "Q_all",
+    "pos": "所有值班员都参加了演练。",
+    "neg": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "wrong": [
+      "所有值班员都没有参加演练。",
+      "所有值班员都不必参加演练。"
+    ],
+    "category": "universal_scope",
+    "assumption": "nonempty finite on-duty group"
+  },
+  {
+    "id": "Q_some",
+    "pos": "至少一名值班员参加了演练。",
+    "neg": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "wrong": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "category": "existential_scope",
+    "assumption": "same group/event"
+  },
+  {
+    "id": "M_must",
+    "pos": "按规定，林岚必须佩戴护目镜。",
+    "neg": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "wrong": [
+      "按规定，林岚必须不佩戴护目镜。",
+      "林岚没有佩戴护目镜。"
+    ],
+    "category": "necessity",
+    "assumption": "same deontic source, not factual event"
+  },
+  {
+    "id": "M_can",
+    "pos": "按规定，周宁可以使用这台设备。",
+    "neg": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "wrong": [
+      "周宁没有使用这台设备。",
+      "周宁不必使用这台设备。"
+    ],
+    "category": "permission",
+    "assumption": "permission, not ability"
+  },
+  {
+    "id": "lexical",
+    "pos": "周宁在周一阅读了题为《没有》的小说。",
+    "neg": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "wrong": [
+      "周宁在周一阅读了题为《已经》的小说。",
+      "周宁在周一并非没有阅读题为《没有》的小说。"
+    ],
+    "category": "mention_and_double_negation",
+    "assumption": "novel title is lexical mention"
+  },
+  {
+    "id": "sentiment",
+    "pos": "林岚喜欢这幅画。",
+    "neg": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "wrong": [
+      "林岚讨厌这幅画。",
+      "林岚喜欢另一幅画。"
+    ],
+    "category": "sentiment_not_complement",
+    "assumption": "not-liking includes neutral"
+  },
+  {
+    "id": "antonym",
+    "pos": "这个房间很明亮。",
+    "neg": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "wrong": [
+      "这个房间很黑暗。",
+      "这个房间不算黑暗。"
+    ],
+    "category": "antonym_not_complement",
+    "assumption": "threshold predicate; antonym is not complement"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "unique_base_groups": true,
+  "topic_axis_disjoint": true,
+  "template_axis_disjoint": true,
+  "joint_axis_disjoint": true,
+  "all_actor_names_in_train": true,
+  "no_phase1_text_overlap": true,
+  "dev_no_positive_negative_text_overlap": true,
+  "iid_no_positive_negative_text_overlap": true,
+  "topic_no_positive_negative_text_overlap": true,
+  "template_no_positive_negative_text_overlap": true,
+  "joint_no_positive_negative_text_overlap": true
+}

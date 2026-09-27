@@ -1,0 +1,35 @@
+Matched analysis complete
+Supplement complete
+Diagnostics complete, common strata: {'common_strata': [], 'counts': {'negation': 0, 'time': 0, 'emphasis': 0}, 'interpretation': 'If common support is empty, no exact matched causal contrast is claimed.'}
+Summary complete; intervals: [
+  {
+    "comparison": "lowrank_minus_surface",
+    "representation": "l14_mean",
+    "split": "iid",
+    "mode": "unseen",
+    "metric": "recall1",
+    "cluster_unit": "cluster",
+    "n_base": 48,
+    "n_clusters": 48,
+    "difference": 0.020833333333333332,
+    "ci95_low": -0.034809027777777786,
+    "ci95_high": 0.08680555555555557,
+    "ci975_low": -0.045138888888888895,
+    "ci975_high": 0.1007378472222224
+  },
+  {
+    "comparison": "lowrank_minus_surface",
+    "representation": "l14_mean",
+    "split": "iid",
+    "mode": "unseen",
+    "metric": "recall1",
+    "cluster_unit": "topic",
+    "n_base": 48,
+    "n_clusters": 8,
+    "difference": 0.020833333333333332,
+    "ci95_low": -0.03125000000000001,
+    "ci95_high": 0.06944444444444446,
+    "ci975_low": -0.03472222222222223,
+    "ci975_high": 0.07296006944444462
+  }
+]

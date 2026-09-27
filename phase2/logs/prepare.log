@@ -1,0 +1,26 @@
+{
+  "version": "phase2_v1",
+  "source": "AI-authored controlled data; no external corpus or model generation API",
+  "n_base": 384,
+  "n_C": 96,
+  "n_edits": 1152,
+  "n_texts": 4568,
+  "splits": {
+    "dev": 48,
+    "iid": 48,
+    "joint": 32,
+    "template": 64,
+    "topic": 96,
+    "train": 96
+  },
+  "human_review": "not available; semantic runs exploratory",
+  "proposition_uniqueness": 384,
+  "data_sha256": {
+    "a_edits.json": "ec6ae30309a3c43c420de2b9ec20ab5bc8c14194e3a1cd616868c4099c06f328",
+    "b_propositions.json": "6d0a65de0caa34d2d6f0fd71063c153714705440bc213c47e62b63f792acaaca",
+    "c_confirmation.json": "3bf5b42bcabcc35a50008694d7034e0792272988adb0cb8752a7706925f01947",
+    "challenge.json": "ab3167dd6a7ae9020782a66368c666ba04a595e722db3cfaf10e32f4349732e0",
+    "review_pending.json": "4dd066ec6e78619e7448a2aaf9f7353977b74336303920c5bd25ebe763c9f7e5",
+    "texts.json": "6e3491146600059e3fa2b16dbd4ae4a5c353d9dc097c3e18dbacaceabf5896e7"
+  }
+}

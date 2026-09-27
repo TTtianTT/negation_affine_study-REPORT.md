@@ -1,0 +1,6 @@
+split,shift,rank1,length,fraction_of_rank1_mse_gain_recovered,interpretation
+iid,0.9039771353212651,0.26217928134458296,0.4754401157409467,0.6677133881408834,"descriptive ratio, not causal variance decomposition; can exceed 1 or be undefined"
+topic,1.2104983983975848,0.2825779867473348,0.5039770434055674,0.7614029674544094,"descriptive ratio, not causal variance decomposition; can exceed 1 or be undefined"
+template,0.6304856459531172,0.09837711341388104,0.16420687888135233,0.8762850782464812,"descriptive ratio, not causal variance decomposition; can exceed 1 or be undefined"
+expression,83.04445841778897,83.12343891788768,82.8190337893351,-2.8541808189635027,"descriptive ratio, not causal variance decomposition; can exceed 1 or be undefined"
+joint,77.59522673926413,72.76783743841274,68.96084343001992,1.7886237821593114,"descriptive ratio, not causal variance decomposition; can exceed 1 or be undefined"

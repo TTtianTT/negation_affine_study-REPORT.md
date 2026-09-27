@@ -1,0 +1,6470 @@
+[
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "identity",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9997433577533235,
+      0.9997148804653293,
+      1.0,
+      0.9999792541111079,
+      0.999959500434835
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "identity",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9996189661032495,
+      0.9997120805541413,
+      0.9999999999999999,
+      0.9997083067686956,
+      0.9999806972639593
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "identity",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999769508794913,
+      0.9997964503730885,
+      1.000000000000001,
+      0.9999708379928536,
+      0.9995728442456359
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "identity",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999775178156691,
+      0.999808217089138,
+      1.000000000000001,
+      0.9995782575447707,
+      0.9995865938908643
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "identity",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.999924363450096,
+      0.9998971256814768,
+      1.0000000000000009,
+      0.999983734118681,
+      0.9998836667985614
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "identity",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999769195859954,
+      0.9999419769326157,
+      1.0000000000000002,
+      0.9999583615170954,
+      0.999959473487494
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "identity",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.999974818838532,
+      0.9999392632710133,
+      1.0,
+      0.9999920443132813,
+      0.9999719442835626
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9996807131355725,
+      0.9996391850992286,
+      0.9999614773339879,
+      0.9999459947787932,
+      0.9999336665335976
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9995882133344671,
+      0.9996736660101626,
+      0.9999681482842069,
+      0.9996678844461431,
+      0.9999611380624669
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.999915382819409,
+      0.9997074522801748,
+      0.9999265094224817,
+      0.9999126047503006,
+      0.9993786398930853
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999023726547833,
+      0.9996847423826427,
+      0.9999255104170905,
+      0.9993664053557341,
+      0.9993757501506881
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9997749388639323,
+      0.999771010648566,
+      0.9998162243851239,
+      0.9997777556132745,
+      0.9997541096587235
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999463173091352,
+      0.9999229746516201,
+      0.9999666946591144,
+      0.999919892163197,
+      0.9999188867455
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999651369335747,
+      0.9999333817467724,
+      0.9999814936332743,
+      0.9999731472075936,
+      0.9999550056332822
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "rank1",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9977074850924266,
+      0.9976398865877306,
+      0.9982358572938009,
+      0.9982053306034568,
+      0.9982319025853108
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "rank1",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员没有参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9978009335506359,
+      0.9977140740427191,
+      0.9979803789774838,
+      0.9975740593531945,
+      0.9980048488362138
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "rank1",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须不佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9985761042399681,
+      0.9982968132897666,
+      0.9985785993095808,
+      0.9985866828952235,
+      0.9977765800135399
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "rank1",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9985575713865109,
+      0.9982173431872499,
+      0.9986201197571543,
+      0.9977514943003429,
+      0.9977781201508202
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "rank1",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9993713040874196,
+      0.9993886830918866,
+      0.9994175896150028,
+      0.9993718210644195,
+      0.999370095612761
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "rank1",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚并不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9982576296646041,
+      0.9983038031766711,
+      0.9983026594530477,
+      0.9982166338577689,
+      0.9982215642613017
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "rank1",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间算不上很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9976562314586224,
+      0.9976818623419172,
+      0.997628151459641,
+      0.9976045328799772,
+      0.9975822092997314
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9983263501400069,
+      0.9982454048583647,
+      0.998810459119373,
+      0.9987853244854017,
+      0.9988041454254531
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员没有参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.998375314505366,
+      0.9983438316931622,
+      0.9986322515462959,
+      0.9982439549263461,
+      0.9986569477187681
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须不佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9988247000435715,
+      0.9985451914150336,
+      0.9988296560370143,
+      0.9988388761758948,
+      0.9980363384273716
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987971364268787,
+      0.99845917986639,
+      0.9988539328735366,
+      0.9979724872854397,
+      0.9979944917364031
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9991263560656078,
+      0.9991537667668708,
+      0.9991703486272903,
+      0.9991280150762039,
+      0.999144986889765
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987524156501986,
+      0.9987895294242376,
+      0.9987903773085669,
+      0.9987109820448541,
+      0.9987108710952608
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间算不上很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9986549783913856,
+      0.9986666153824917,
+      0.998628398590204,
+      0.9986104764433468,
+      0.9985910315232853
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都没有参加演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987029858799585,
+      0.9986917024794395,
+      0.9988089355643026,
+      0.9988130420043746,
+      0.9987990611714136
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "没有任何值班员参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9989090158660505,
+      0.9988152244691606,
+      0.998676039338517,
+      0.9987071845708546,
+      0.998700173624346
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "林岚没有佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987525058778206,
+      0.9987732164703786,
+      0.9987284390605418,
+      0.9987838312916614,
+      0.9988648824444148
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "周宁没有使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987321934784783,
+      0.9987010688239516,
+      0.9987517825619064,
+      0.9988900890189192,
+      0.9988666938155536
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一并非没有阅读题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9988251133123429,
+      0.9988610762922976,
+      0.9987443276013809,
+      0.9987331825538617,
+      0.9988723999376139
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚并不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9988636106335893,
+      0.9988995468843271,
+      0.9988563077852795,
+      0.9988453253468998,
+      0.998855920626246
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间不算黑暗。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987277158635504,
+      0.9987267507861513,
+      0.9987283032875744,
+      0.9987293581086902,
+      0.9987376372274954
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9981954262857956,
+      0.9981423674080381,
+      0.9986211932012108,
+      0.9986087482774793,
+      0.9985956031532526
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员没有参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987319552152141,
+      0.9987798303344901,
+      0.9990541391679217,
+      0.9987102283406027,
+      0.999071604449226
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9998551792674324,
+      0.9996386827646089,
+      0.999865188996788,
+      0.9998563869353881,
+      0.9993348560876416
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9998690589111083,
+      0.9996418438546189,
+      0.9998936510158678,
+      0.9993089442159704,
+      0.9993193075355192
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9997685997221546,
+      0.9997636758284212,
+      0.9998106940326181,
+      0.9997819496584188,
+      0.9997528511435589
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9970878984358953,
+      0.9970733745963654,
+      0.9970926817137723,
+      0.9970317275488007,
+      0.9970329736969092
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间算不上很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9927123380281528,
+      0.9927312169746243,
+      0.9926521052926494,
+      0.992650191009457,
+      0.9926214119737606
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9996346932107192,
+      0.9995870351714755,
+      0.9999296152458559,
+      0.9999149212610594,
+      0.999905031620782
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9995626210395565,
+      0.9996458640696813,
+      0.9999447440011902,
+      0.9996382082952969,
+      0.9999410248282501
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999365698615631,
+      0.999744101834932,
+      0.999948771082235,
+      0.9999307334988293,
+      0.9993811315605952
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999378079958402,
+      0.9997428938237252,
+      0.9999534435495392,
+      0.9994097156498956,
+      0.9994155473719459
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9998177783782121,
+      0.9998132497357113,
+      0.9998590658179524,
+      0.9998257462714043,
+      0.9998001327267463
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999161881424561,
+      0.9999001558286974,
+      0.9999348844226574,
+      0.9998876587517436,
+      0.9998837628722612
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999375582508507,
+      0.9999091539447253,
+      0.9999480350277219,
+      0.9999394112821991,
+      0.9999213650218641
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "identity",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9997433577533235,
+      0.9997148804653293,
+      1.0,
+      0.9999792541111079,
+      0.999959500434835
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "identity",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9996189661032495,
+      0.9997120805541413,
+      0.9999999999999999,
+      0.9997083067686956,
+      0.9999806972639593
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "identity",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999769508794913,
+      0.9997964503730885,
+      1.000000000000001,
+      0.9999708379928536,
+      0.9995728442456359
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "identity",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999775178156691,
+      0.999808217089138,
+      1.000000000000001,
+      0.9995782575447707,
+      0.9995865938908643
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "identity",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.999924363450096,
+      0.9998971256814768,
+      1.0000000000000009,
+      0.999983734118681,
+      0.9998836667985614
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "identity",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999769195859954,
+      0.9999419769326157,
+      1.0000000000000002,
+      0.9999583615170954,
+      0.999959473487494
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "identity",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.999974818838532,
+      0.9999392632710133,
+      1.0,
+      0.9999920443132813,
+      0.9999719442835626
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9996833299726647,
+      0.9996408377652986,
+      0.9999628541007994,
+      0.9999473606054144,
+      0.9999347243532414
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9995888264194721,
+      0.9996752756289938,
+      0.9999693286120285,
+      0.9996703168575085,
+      0.9999622161025872
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.999917469180085,
+      0.9997093365662004,
+      0.9999292297983129,
+      0.999915581081233,
+      0.9993800895365931
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999056409881713,
+      0.9996885562063684,
+      0.9999283055384285,
+      0.999374149058951,
+      0.9993831975267445
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9997815966686916,
+      0.9997770183864549,
+      0.9998219681451193,
+      0.9997836565305085,
+      0.9997586633793869
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999478365431256,
+      0.9999236906381181,
+      0.9999682464513591,
+      0.9999214617259163,
+      0.9999207395013838
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999654830728946,
+      0.9999334485583564,
+      0.9999821047552819,
+      0.9999737483279478,
+      0.9999555489905747
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "rank1",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9976256568180304,
+      0.9975529484912145,
+      0.9981607370664498,
+      0.9981292674265995,
+      0.9981564501580695
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "rank1",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员没有参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9977307638194706,
+      0.9976414090455483,
+      0.9979047684568064,
+      0.9974993008434926,
+      0.9979296341932711
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "rank1",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须不佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.998500649621926,
+      0.9982165736377286,
+      0.9985047704899912,
+      0.9985143309016948,
+      0.9976828697143187
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "rank1",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9985343359272474,
+      0.9981905877531005,
+      0.9985969232097629,
+      0.9977297624683859,
+      0.9977558277378842
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "rank1",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9993987137296102,
+      0.9994148922850994,
+      0.9994439084327157,
+      0.9993984059036648,
+      0.9993941160121136
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "rank1",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚并不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9981538466065403,
+      0.9982006193663444,
+      0.9982004976450765,
+      0.9981117660706791,
+      0.9981185409233273
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "rank1",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间算不上很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9974818500294722,
+      0.9975091136207819,
+      0.9974531284876686,
+      0.99742841269828,
+      0.9974050358493356
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9983114587140248,
+      0.9982289160290874,
+      0.9987979550156333,
+      0.998771510187404,
+      0.9987913079487434
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员没有参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9983568014120994,
+      0.9983233592136297,
+      0.998617952387582,
+      0.998226151439864,
+      0.9986425644955964
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须不佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9988054265432289,
+      0.9985239149329224,
+      0.998809569162397,
+      0.9988196462189511,
+      0.9980087659115131
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.998795278298207,
+      0.9984544383216589,
+      0.9988524087106072,
+      0.9979673201740914,
+      0.997989413488906
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9991414684234743,
+      0.9991677832984114,
+      0.9991859304159677,
+      0.999143880392658,
+      0.9991594288019311
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.998728797559336,
+      0.9987664665722571,
+      0.998767890589985,
+      0.9986861630951198,
+      0.9986885794680265
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间算不上很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9986222321082403,
+      0.9986364844678365,
+      0.9985939841867819,
+      0.99857538663228,
+      0.9985559284681886
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都没有参加演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987021977956423,
+      0.9986914801549085,
+      0.9988084980759275,
+      0.9988132096299183,
+      0.9987965232220254
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "没有任何值班员参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9989105303259231,
+      0.9988161150771477,
+      0.9986767138781323,
+      0.9987069389883527,
+      0.9987007787238996
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "林岚没有佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.998748635555766,
+      0.9987707266495602,
+      0.9987258477509413,
+      0.9987813836685782,
+      0.9988611543789236
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "周宁没有使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987321803596979,
+      0.9987026091598497,
+      0.9987517235701271,
+      0.9988921810822667,
+      0.9988684053992587
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一并非没有阅读题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.998827559155413,
+      0.9988641323104416,
+      0.9987497358986677,
+      0.9987387233533964,
+      0.9988756530404155
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚并不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9988619794360322,
+      0.9988951298928064,
+      0.9988566263124543,
+      0.9988422489255384,
+      0.9988547034414419
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间不算黑暗。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987236374799109,
+      0.9987224636696704,
+      0.9987268787895767,
+      0.998726537445987,
+      0.9987331214930197
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9976742125040587,
+      0.9976187909925662,
+      0.9980249596200308,
+      0.9980165526406963,
+      0.9980242374234669
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员没有参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9981994654706661,
+      0.9982047225169716,
+      0.9985477204671332,
+      0.998199460069243,
+      0.9985681920659488
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9998567792136552,
+      0.9996418892424581,
+      0.9998665716171375,
+      0.9998576779882078,
+      0.9992458527323373
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9998677671263966,
+      0.9996397814623859,
+      0.9998923831417181,
+      0.9993086310869922,
+      0.9993186345629967
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.999713061426472,
+      0.9997130398190712,
+      0.9997569404929373,
+      0.9997294879986118,
+      0.9997038836065454
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚并不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9969890336190834,
+      0.9969969833701761,
+      0.9969931978664052,
+      0.9969401520364048,
+      0.9969356089956056
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间算不上很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9876131793616797,
+      0.9876313812924258,
+      0.9875689135512452,
+      0.9875453593939224,
+      0.9874982285242215
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9996266418510185,
+      0.999578123016784,
+      0.9999235368427384,
+      0.9999086274384308,
+      0.999899413551383
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9995580271885454,
+      0.9996400503643295,
+      0.9999402812617144,
+      0.999632568530981,
+      0.9999369759428469
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999354296081542,
+      0.9997419224443322,
+      0.9999471009884247,
+      0.999929228158599,
+      0.9993740581305735
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999342569161986,
+      0.9997379477364794,
+      0.999950339101523,
+      0.9993953175245932,
+      0.9994018419391105
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9998140630228332,
+      0.999809655427504,
+      0.999856019489255,
+      0.9998233850134646,
+      0.9997963697469454
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999053775453273,
+      0.9998896089301778,
+      0.9999242639429405,
+      0.999875906933243,
+      0.9998725675299995
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999299043685963,
+      0.9999023242081635,
+      0.9999397436198227,
+      0.9999308597744963,
+      0.9999125307186288
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "identity",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9997433577533235,
+      0.9997148804653293,
+      1.0,
+      0.9999792541111079,
+      0.999959500434835
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "identity",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9996189661032495,
+      0.9997120805541413,
+      0.9999999999999999,
+      0.9997083067686956,
+      0.9999806972639593
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "identity",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999769508794913,
+      0.9997964503730885,
+      1.000000000000001,
+      0.9999708379928536,
+      0.9995728442456359
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "identity",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999775178156691,
+      0.999808217089138,
+      1.000000000000001,
+      0.9995782575447707,
+      0.9995865938908643
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "identity",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.999924363450096,
+      0.9998971256814768,
+      1.0000000000000009,
+      0.999983734118681,
+      0.9998836667985614
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "identity",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999769195859954,
+      0.9999419769326157,
+      1.0000000000000002,
+      0.9999583615170954,
+      0.999959473487494
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "identity",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.999974818838532,
+      0.9999392632710133,
+      1.0,
+      0.9999920443132813,
+      0.9999719442835626
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9996823830116136,
+      0.9996400094583555,
+      0.9999622868888307,
+      0.9999468570663158,
+      0.9999342066530236
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9995886911932598,
+      0.999674521583833,
+      0.9999688622881441,
+      0.999669465559963,
+      0.9999618867438761
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999166293727564,
+      0.9997082912459611,
+      0.9999282099303418,
+      0.9999146857704135,
+      0.9993776262533977
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999048090812122,
+      0.999687467754315,
+      0.9999272571211353,
+      0.9993734327137305,
+      0.9993821564033587
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9997780965794019,
+      0.9997732649600743,
+      0.9998178695850208,
+      0.9997792514568469,
+      0.9997546006620048
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999477719118106,
+      0.999923686118846,
+      0.9999679339896745,
+      0.9999213306852799,
+      0.9999204112754672
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999653236956723,
+      0.9999333906830226,
+      0.9999818397201636,
+      0.9999735262695524,
+      0.9999552497739008
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "rank1",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9975370859283095,
+      0.9974630853501323,
+      0.9980779492455933,
+      0.998046246121268,
+      0.9980737643006584
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "rank1",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员没有参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9976567593643948,
+      0.9975616965901599,
+      0.9978248201747525,
+      0.9974175398739868,
+      0.9978504603556165
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "rank1",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须不佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9984933525668691,
+      0.9982089188074155,
+      0.998497277287566,
+      0.9985068214309841,
+      0.9976695788454961
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "rank1",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9985093424421027,
+      0.9981636547932933,
+      0.9985721075231582,
+      0.9977061585891753,
+      0.9977316043450521
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "rank1",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.999409484302022,
+      0.9994246199570953,
+      0.9994538518594649,
+      0.99940824211866,
+      0.9994038555684982
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "rank1",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚并不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9981403790048413,
+      0.9981877548492734,
+      0.9981870831595463,
+      0.9980983926833882,
+      0.9981050532187374
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "rank1",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间算不上很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9973587697984123,
+      0.9973882654725436,
+      0.9973295651674321,
+      0.9973045918541801,
+      0.9972810780523653
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9982996889624907,
+      0.9982167283861747,
+      0.998788989550868,
+      0.9987615292468691,
+      0.9987811618199103
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员没有参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.998341829354261,
+      0.9983073039208776,
+      0.9986072648280018,
+      0.9982115348292745,
+      0.9986317284251689
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须不佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9988187731650011,
+      0.9985355479992939,
+      0.9988237628011394,
+      0.9988325485970264,
+      0.9980185923259651
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987893469563188,
+      0.998445625094929,
+      0.9988474894413437,
+      0.9979589477446331,
+      0.9979807813361838
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9991488717022345,
+      0.9991749923858508,
+      0.9991923611127578,
+      0.9991500776772997,
+      0.9991651646477859
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987342399729858,
+      0.9987727988430373,
+      0.9987740429972793,
+      0.9986921358306994,
+      0.9986937535868017
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间算不上很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9986103421592869,
+      0.9986258487825148,
+      0.9985827238915592,
+      0.998564123841644,
+      0.998543803155061
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都没有参加演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9986960607072004,
+      0.9986857416893117,
+      0.9988035247047029,
+      0.9988070941711342,
+      0.9987939030728955
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "没有任何值班员参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9989024481340452,
+      0.9988097323350162,
+      0.9986718385557651,
+      0.9987010676136749,
+      0.9986947504702932
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "林岚没有佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987475345770855,
+      0.9987682948370153,
+      0.9987249616106386,
+      0.9987810103456789,
+      0.9988564903588861
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "周宁没有使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987285391167744,
+      0.9986974952104216,
+      0.9987480472871835,
+      0.9988829920141535,
+      0.9988600067157134
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一并非没有阅读题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9988315762876976,
+      0.998865518063305,
+      0.9987556417944232,
+      0.9987448762717159,
+      0.9988798779122017
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚并不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9988601084653996,
+      0.9988960198190229,
+      0.9988539826937494,
+      0.9988398260304693,
+      0.9988515945788763
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间不算黑暗。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987376131256165,
+      0.9987380325384906,
+      0.9987358855185743,
+      0.9987346927477021,
+      0.9987461775265846
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9987050826939903,
+      0.9986533656215795,
+      0.9991125056703711,
+      0.9990962772808656,
+      0.9991023842450812
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员没有参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.999028893694415,
+      0.9990540457635201,
+      0.9993722348316586,
+      0.9990139817863115,
+      0.9993862036948928
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.999866088917265,
+      0.9996496177547812,
+      0.9998745617505707,
+      0.9998636614219003,
+      0.9992863183589202
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9998713705284848,
+      0.9996430179259371,
+      0.9998957407972299,
+      0.9993184166471853,
+      0.9993279409419866
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9997496087453062,
+      0.9997481374795558,
+      0.9997906733380031,
+      0.9997639965756671,
+      0.9997258503035786
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚并不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9984822727279369,
+      0.9985045130372072,
+      0.9984939299015352,
+      0.9984286667543794,
+      0.9984280371688355
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间算不上很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9953832992997708,
+      0.9954204366884614,
+      0.9953472311279155,
+      0.9953227400755512,
+      0.9952851647288092
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9996323865994536,
+      0.9995840950927644,
+      0.9999283035736731,
+      0.9999130971729071,
+      0.9999032490532337
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.999562119021366,
+      0.9996443356607274,
+      0.9999440392199757,
+      0.999637326446109,
+      0.9999401232719431
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999429445169485,
+      0.999746718969662,
+      0.9999551259770642,
+      0.9999380120671929,
+      0.9993969509976879
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999411327561751,
+      0.9997424069955447,
+      0.999957459883708,
+      0.9994151599309247,
+      0.9994215578775381
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9998288362796601,
+      0.9998229423981015,
+      0.9998688905055877,
+      0.9998353981772123,
+      0.9998074156503858
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999135666137253,
+      0.9998969930556054,
+      0.9999328515235355,
+      0.9998840678084754,
+      0.9998812370763606
+    ]
+  },
+  {
+    "representation": "l14_mean",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9999342900230817,
+      0.999906566976556,
+      0.9999456651875209,
+      0.9999366663587473,
+      0.9999179985845503
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "identity",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8392476785627879,
+      0.8692419572863103,
+      1.0000000000000004,
+      0.8737040629006689,
+      0.7195032243572399
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "identity",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9636487037427248,
+      0.6663713024955924,
+      1.0000000000000004,
+      0.8695757051076998,
+      0.886432598193315
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "identity",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9511415924761175,
+      0.8892435905948632,
+      1.0000000000000013,
+      0.8890669855815583,
+      0.9401753420191993
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "identity",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9463583466571062,
+      0.9701154347516232,
+      0.9999999999999996,
+      0.9127618015757143,
+      0.9491915856602683
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "identity",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9071241448461181,
+      0.9381009965806857,
+      1.0,
+      0.9972728143861083,
+      0.8754779947845315
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "identity",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9681877329889781,
+      0.8482274340249645,
+      1.0000000000000004,
+      0.8241337158858674,
+      0.9764432132815002
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "identity",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9674797239251691,
+      0.9579179960540528,
+      1.0000000000000004,
+      0.9500639240023591,
+      0.9410129579066525
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8029072380025719,
+      0.8408249140805917,
+      0.9758313360027391,
+      0.8741258515638196,
+      0.6788713747734132
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9578222843285183,
+      0.6927168045500807,
+      0.9744515856433844,
+      0.8531029907088685,
+      0.8790778923980396
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9413398001277998,
+      0.9048856122236675,
+      0.9748392369538863,
+      0.8941039825924669,
+      0.9340777406678635
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9247832087270123,
+      0.9575132001995809,
+      0.9745064873210547,
+      0.8939992469865101,
+      0.9103271896450874
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8863768974318169,
+      0.922538240350674,
+      0.9726763989272422,
+      0.9680174438062061,
+      0.8603304064659291
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9551181661326297,
+      0.823680980186436,
+      0.9743965337339642,
+      0.7977630036991108,
+      0.9481090080677235
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.949864332840328,
+      0.9329655711945455,
+      0.9720394379666848,
+      0.9255401320573725,
+      0.914330307682855
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "rank1",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.7869439131676432,
+      0.8312167234009926,
+      0.9760645253756018,
+      0.869706640741555,
+      0.6734943174810024
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "rank1",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9656140511662734,
+      0.6799907129310288,
+      0.9693217683045765,
+      0.8148567299371376,
+      0.855259404449546
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "rank1",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9394918719274918,
+      0.9052881219553275,
+      0.9742995619757333,
+      0.8967947135773955,
+      0.9352129070048313
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "rank1",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.898747593001773,
+      0.9427520557742883,
+      0.9693604759791095,
+      0.8619496057308247,
+      0.8948429669026009
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "rank1",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8761706204944713,
+      0.9179395918725426,
+      0.9732480379966197,
+      0.9682100997680303,
+      0.8524126866772336
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "rank1",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9508743059954132,
+      0.8708935073434091,
+      0.9575435014425566,
+      0.8532703835249875,
+      0.9411597289235534
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "rank1",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9341994362432815,
+      0.9131268946038359,
+      0.9640678582593775,
+      0.9079822733354191,
+      0.9087867126402582
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8192489419042268,
+      0.8264296132717448,
+      0.9628850510113058,
+      0.8603928063496161,
+      0.6760503936890387
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "没有任何值班员参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9618157083901553,
+      0.7117248055104182,
+      0.9442854631519675,
+      0.8143007101893145,
+      0.8485870053754027
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9278635554567792,
+      0.9292335796344711,
+      0.9414393998341768,
+      0.8968774774218288,
+      0.91706847184596
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8663143797979228,
+      0.9223707853243863,
+      0.9505340196076789,
+      0.8492079123781432,
+      0.8753606192671617
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8801239639828036,
+      0.9148425574494536,
+      0.9598006363015129,
+      0.955076207240586,
+      0.8639110002140211
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9010309687259259,
+      0.8453391449752763,
+      0.889955863126629,
+      0.8221982015320536,
+      0.8844810769514276
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "lowrank",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8506385401572156,
+      0.8241664103084667,
+      0.8835488417040371,
+      0.8242505246374328,
+      0.8242695210704629
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8162781834832471,
+      0.8414477797750196,
+      0.8669204363500179,
+      0.762619971045015,
+      0.7120660677447359
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "没有任何值班员参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.943562882853803,
+      0.7059320264483857,
+      0.895971776001145,
+      0.784546702166565,
+      0.8241948066284197
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "规定并未要求林岚佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9103798362609331,
+      0.9278570797438349,
+      0.9147037139944318,
+      0.8802905313186846,
+      0.9123206516369039
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8240328391135305,
+      0.9064974425038528,
+      0.9230586863099195,
+      0.8476447171741135,
+      0.8676267478611814
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一未读过题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.8917185482202796,
+      0.9235576763497061,
+      0.8880313694349884,
+      0.8924280387108097,
+      0.8914072103687221
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.8657723803147643,
+      0.8554388122295338,
+      0.8085196799252423,
+      0.8306694736462666,
+      0.8460043183267401
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "full_affine",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间不算黑暗。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.7236809414890296,
+      0.7014202775496912,
+      0.7577572475276078,
+      0.7260450149481286,
+      0.7782238135177506
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.6852260709591506,
+      0.6768017254804773,
+      0.7111825077925742,
+      0.6452672544882854,
+      0.515956843705537
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "并非所有值班员都参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.6497876072167079,
+      0.5427993605687071,
+      0.6951094476557431,
+      0.7205136179926066,
+      0.7101904443263458
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9360043178857982,
+      0.9024146340697623,
+      0.967707777914981,
+      0.900991241136966,
+      0.9323839620856073
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9224575740970405,
+      0.9546699758670316,
+      0.970991798128483,
+      0.8957829205874392,
+      0.9103367877887494
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8566805554768584,
+      0.8822243482375027,
+      0.9298738562410805,
+      0.9254247652361673,
+      0.8300014240560636
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.6906854163979927,
+      0.5422201460726557,
+      0.716055720986878,
+      0.5176381161904988,
+      0.6930748050080769
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "length_shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间并不很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.5005563888377038,
+      0.4958465052831856,
+      0.48780212385219035,
+      0.49383246542623577,
+      0.4709597106529796
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.7971419652269728,
+      0.8400719774037129,
+      0.9702589745063936,
+      0.8673564144293455,
+      0.6819346754414517
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9516099667891185,
+      0.690387181827081,
+      0.9690680464250566,
+      0.8482303022676249,
+      0.8799028270678315
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9229453534171489,
+      0.9058984066178597,
+      0.9640994673125232,
+      0.9114003731290443,
+      0.9355037572978866
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9116040262299088,
+      0.955542388058242,
+      0.9699085743732353,
+      0.8812038591140251,
+      0.9009392012431736
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8738247930504954,
+      0.9159170004455593,
+      0.9692173771665066,
+      0.9637300220358438,
+      0.8509372384696401
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9392794451895463,
+      0.8171421151452047,
+      0.9574083491144342,
+      0.7909583210858042,
+      0.9330616015761591
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 17,
+    "method": "source_token_ridge",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9240487053520606,
+      0.9070126046664213,
+      0.9480064874183134,
+      0.8958371868661494,
+      0.8914270633191361
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "identity",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8392476785627879,
+      0.8692419572863103,
+      1.0000000000000004,
+      0.8737040629006689,
+      0.7195032243572399
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "identity",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9636487037427248,
+      0.6663713024955924,
+      1.0000000000000004,
+      0.8695757051076998,
+      0.886432598193315
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "identity",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9511415924761175,
+      0.8892435905948632,
+      1.0000000000000013,
+      0.8890669855815583,
+      0.9401753420191993
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "identity",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9463583466571062,
+      0.9701154347516232,
+      0.9999999999999996,
+      0.9127618015757143,
+      0.9491915856602683
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "identity",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9071241448461181,
+      0.9381009965806857,
+      1.0,
+      0.9972728143861083,
+      0.8754779947845315
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "identity",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9681877329889781,
+      0.8482274340249645,
+      1.0000000000000004,
+      0.8241337158858674,
+      0.9764432132815002
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "identity",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9674797239251691,
+      0.9579179960540528,
+      1.0000000000000004,
+      0.9500639240023591,
+      0.9410129579066525
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8052888586421868,
+      0.8428285368092296,
+      0.9764084998888887,
+      0.8738360671451478,
+      0.6823349036213503
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9571483472587097,
+      0.6917087509412398,
+      0.9750642209414896,
+      0.8540894401531535,
+      0.8796616845336575
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9408523472580683,
+      0.9047818619650445,
+      0.9753503682601008,
+      0.8948919578768981,
+      0.9344561917399525
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9262688752187662,
+      0.9576925795393438,
+      0.9750940173510839,
+      0.8946708766710472,
+      0.9120717014673869
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8886146865508898,
+      0.9237239051566152,
+      0.9731957105852281,
+      0.9685392546513204,
+      0.8629518759522767
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9548372626144703,
+      0.8228942809548699,
+      0.9748699884930021,
+      0.7965870346154412,
+      0.94851157291178
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9504702031809064,
+      0.9338602057887768,
+      0.9725634037904465,
+      0.9256751592409604,
+      0.9140013642390135
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "rank1",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.7866818617855657,
+      0.8322626811398698,
+      0.9769017846195253,
+      0.868260868398755,
+      0.6780917269800109
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "rank1",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9660429985260709,
+      0.6780970930596741,
+      0.9714499407747222,
+      0.8165910448663798,
+      0.8570697407138901
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "rank1",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9368012170304277,
+      0.9051942946523702,
+      0.9738728770781933,
+      0.9001747576854588,
+      0.9363838018775504
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "rank1",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9009844290657181,
+      0.943911657148304,
+      0.9711016305690403,
+      0.8625570771528724,
+      0.8984164400045687
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "rank1",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8812165853669043,
+      0.9207327368660606,
+      0.9742922089507039,
+      0.9693136816769209,
+      0.8575947151765589
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "rank1",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9538277175320722,
+      0.8733749396828266,
+      0.9614032983466191,
+      0.8547127038440716,
+      0.9453450380665348
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "rank1",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9351293388910329,
+      0.9146307834403795,
+      0.9655056729077316,
+      0.9083485315189586,
+      0.9095604521040226
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8100821045778281,
+      0.8439708310805456,
+      0.9677490268717337,
+      0.8688845685473905,
+      0.7063297577676825
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "没有任何值班员参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9636236882399325,
+      0.7055007797726062,
+      0.952027677164332,
+      0.817469866278425,
+      0.8551192766663529
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9210803808022677,
+      0.918735542551779,
+      0.9430627136264769,
+      0.9152709864674431,
+      0.9261553683191713
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8744465420401455,
+      0.9257159096434058,
+      0.9563019063217978,
+      0.8493053768663159,
+      0.8805091996955192
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8885590457275788,
+      0.9192483046239149,
+      0.9618207293931832,
+      0.9568618056540492,
+      0.8707234766697521
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9085428848365142,
+      0.845003904497691,
+      0.8981052608673634,
+      0.8215918069056649,
+      0.8906022852869309
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "lowrank",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8516263809414699,
+      0.8270580829042941,
+      0.8819484300244138,
+      0.8290934366836303,
+      0.8325594899372594
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.817758910042437,
+      0.8522629436968152,
+      0.8696550183480425,
+      0.7702396791596969,
+      0.7325446683994433
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "没有任何值班员参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9418455030374798,
+      0.7136972061653828,
+      0.8989478991281332,
+      0.7985467537164469,
+      0.8383787587575247
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "规定并未要求林岚佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.891816959469867,
+      0.9161583898665052,
+      0.9011058535970905,
+      0.8904983605954038,
+      0.9079111363533839
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8282595240388395,
+      0.9073193479493091,
+      0.9248938284410905,
+      0.8489506192751965,
+      0.8718096714104857
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一未读过题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9112409996723352,
+      0.9341345068961235,
+      0.8950008267653023,
+      0.8988822274361499,
+      0.9131581882884343
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.8489226526446243,
+      0.8263592277246115,
+      0.7969953375169632,
+      0.7996469782599483,
+      0.8313322738805744
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "full_affine",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间不算黑暗。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.702355720190835,
+      0.6820383521107372,
+      0.7348586882609187,
+      0.7004387956992724,
+      0.7468409954464207
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "并非所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.5363726104037954,
+      0.4644009619499574,
+      0.46337971615869766,
+      0.474267319845309,
+      0.29821024622404213
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "并非所有值班员都参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.34952306820070844,
+      0.4112258984740401,
+      0.4196367383142392,
+      0.5771060837369684,
+      0.5037726532340613
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.9084008260262604,
+      0.8756733536802008,
+      0.9529351279916687,
+      0.9157422981912482,
+      0.9236435710992421
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9288632947934065,
+      0.9552467615620581,
+      0.9714231041739079,
+      0.8995804573427084,
+      0.9145741333018313
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8538535883076129,
+      0.8805272750295431,
+      0.9287749794541356,
+      0.9250476757499388,
+      0.8306027365489123
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.45420500406099557,
+      0.2149729192324073,
+      0.5135208545193972,
+      0.19374989179126467,
+      0.45511774170640157
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "length_shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间并不很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.3617797577956814,
+      0.3575083842906399,
+      0.31859686679972526,
+      0.3492560160012167,
+      0.2864160171938518
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8138387280448047,
+      0.8430023067141269,
+      0.9651385235461949,
+      0.8682492754860881,
+      0.6825691062489831
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9407016306279786,
+      0.6883105098680677,
+      0.9662080311468482,
+      0.8634933405366465,
+      0.8840890149036661
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9163603095905591,
+      0.8991184353304353,
+      0.9616965103985997,
+      0.9144963854351362,
+      0.9340713851696841
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9197265924604768,
+      0.9573215183139387,
+      0.9715590580496672,
+      0.8836569066617489,
+      0.907015849798066
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8647318016046007,
+      0.9097713227373599,
+      0.9656883795906157,
+      0.9602556690183874,
+      0.8484540542455463
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9130147449472619,
+      0.7517325514855764,
+      0.9442633978738282,
+      0.726137393991291,
+      0.9069542647121784
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 29,
+    "method": "source_token_ridge",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9207228821210761,
+      0.9052045965447126,
+      0.9315996779930075,
+      0.8880364479507472,
+      0.8726386058361175
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "identity",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8392476785627879,
+      0.8692419572863103,
+      1.0000000000000004,
+      0.8737040629006689,
+      0.7195032243572399
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "identity",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9636487037427248,
+      0.6663713024955924,
+      1.0000000000000004,
+      0.8695757051076998,
+      0.886432598193315
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "identity",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9511415924761175,
+      0.8892435905948632,
+      1.0000000000000013,
+      0.8890669855815583,
+      0.9401753420191993
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "identity",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9463583466571062,
+      0.9701154347516232,
+      0.9999999999999996,
+      0.9127618015757143,
+      0.9491915856602683
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "identity",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9071241448461181,
+      0.9381009965806857,
+      1.0,
+      0.9972728143861083,
+      0.8754779947845315
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "identity",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9681877329889781,
+      0.8482274340249645,
+      1.0000000000000004,
+      0.8241337158858674,
+      0.9764432132815002
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "identity",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9674797239251691,
+      0.9579179960540528,
+      1.0000000000000004,
+      0.9500639240023591,
+      0.9410129579066525
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8065630420252338,
+      0.8431261980137447,
+      0.9757057203953943,
+      0.8749986074504472,
+      0.6799559578874912
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.955409301982181,
+      0.6940585823015842,
+      0.974286472481867,
+      0.8572348577538422,
+      0.8818408153180688
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9397226406067012,
+      0.9046040218064144,
+      0.9746257190410507,
+      0.8986024296035029,
+      0.9349950871143842
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9268334025627605,
+      0.9575877370979171,
+      0.9743954473975962,
+      0.8976834181283202,
+      0.9125441641274611
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8894496665248686,
+      0.9235248206014526,
+      0.9726461170566889,
+      0.9681197586766512,
+      0.8624328192075934
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9530696883388161,
+      0.8185357930646203,
+      0.9742701713052602,
+      0.7923673512023518,
+      0.9469663006095661
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9504282522642522,
+      0.9338100647965935,
+      0.9719111005280412,
+      0.9254076868626835,
+      0.912281440517297
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "rank1",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8009136516147413,
+      0.8403703415638271,
+      0.9764671849626227,
+      0.8739687898214523,
+      0.6785268297414673
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "rank1",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9644340264320292,
+      0.6845429344738223,
+      0.9712308503529817,
+      0.8231959362725825,
+      0.8636931781750044
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "rank1",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9426280356534975,
+      0.9043925965353267,
+      0.9753343559814229,
+      0.8946926187795428,
+      0.9334452543220533
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "rank1",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8968293811366649,
+      0.9413110333201253,
+      0.9684807968368696,
+      0.862730227943339,
+      0.8961084757718195
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "rank1",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8812851196493261,
+      0.9203037323505786,
+      0.9736765896093296,
+      0.9688031814437461,
+      0.8566382096768712
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "rank1",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9542376154373597,
+      0.8636906879952162,
+      0.9648583147925522,
+      0.8445077764306821,
+      0.9460805008784144
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "rank1",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9424130496512656,
+      0.9226341406450039,
+      0.970002955155139,
+      0.9153998443713544,
+      0.9111296807384032
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8314528994677765,
+      0.8416899048256585,
+      0.9637421403359312,
+      0.8727990067443108,
+      0.6782794769000446
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "没有任何值班员参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9580808892246071,
+      0.7187200794750306,
+      0.9474530279487168,
+      0.8256238861131564,
+      0.8600141101638149
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9380984354492257,
+      0.9267257095994627,
+      0.9526501125215265,
+      0.8978060001895614,
+      0.9241765276169296
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8735949404327386,
+      0.924973606714613,
+      0.9564978203891418,
+      0.8493914399151994,
+      0.8841093488362685
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8736645833558525,
+      0.9099076201117755,
+      0.9552420881824997,
+      0.9513387568287888,
+      0.8625594806465124
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9070148097460562,
+      0.8501396015463527,
+      0.8949708327836974,
+      0.8256973778487313,
+      0.8917374932464177
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "lowrank",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8809001531649983,
+      0.8562494235818363,
+      0.9121874201724953,
+      0.8497250312554965,
+      0.855131407113429
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8330325148831972,
+      0.8413094146736928,
+      0.8616337702083291,
+      0.766444074490739,
+      0.7008639123028437
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "没有任何值班员参加演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.936440623424305,
+      0.7127806755562259,
+      0.892339875289434,
+      0.7906866396920044,
+      0.8308360035298843
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "规定并未要求林岚佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.9170726595287808,
+      0.9264847739609527,
+      0.9181081000843304,
+      0.8727240744297851,
+      0.9122767066385273
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.8273402281302775,
+      0.9084889586738453,
+      0.924958959492544,
+      0.8496802731901569,
+      0.8744883659441907
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一未读过题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.8953704472553141,
+      0.9224358645991614,
+      0.8870089427219812,
+      0.8914929384783585,
+      0.8980945454090441
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚不喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.8766142469803475,
+      0.8572038795577737,
+      0.8218674570819892,
+      0.832294987488744,
+      0.859101429339862
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "full_affine",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间不算黑暗。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.7601032205836173,
+      0.73997024434754,
+      0.7921302757511071,
+      0.7591340501427815,
+      0.8115274920273249
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "并非所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 1,
+    "recall1": 1.0,
+    "cosines": [
+      0.6278671971113048,
+      0.5877515237842766,
+      0.6195191515997804,
+      0.5788779302652378,
+      0.43140012269980965
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "并非所有值班员都参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 4,
+    "recall1": 0.0,
+    "cosines": [
+      0.5500152342302702,
+      0.49929186090029376,
+      0.5987582399751866,
+      0.6667636317571303,
+      0.6257900653731808
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9210245175264234,
+      0.8893251033923819,
+      0.9557041886645403,
+      0.8990443083335271,
+      0.9221526860630256
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9236781213263293,
+      0.9538403492907348,
+      0.9703470793876817,
+      0.8979253805585498,
+      0.9121828176419675
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8834702422182232,
+      0.8964748153842709,
+      0.941563811774091,
+      0.9375253283991419,
+      0.8561315134216692
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.5825790321321311,
+      0.3954319567345013,
+      0.6067100194435511,
+      0.36309320981628496,
+      0.5745905073094986
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "length_shift",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很黑暗。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.4288365373544249,
+      0.42492486932023893,
+      0.4035952908227931,
+      0.43286246848752796,
+      0.3815919663640204
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "Q_all",
+    "category": "universal_scope",
+    "source": "所有值班员都参加了演练。",
+    "winner": "所有值班员都参加了演练。",
+    "correct_negatives": [
+      "并非所有值班员都参加了演练。",
+      "至少一名值班员没有参加演练。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.800208246802967,
+      0.8400144373709768,
+      0.9660685315936857,
+      0.8665720189047579,
+      0.6767057439532675
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "Q_some",
+    "category": "existential_scope",
+    "source": "至少一名值班员参加了演练。",
+    "winner": "至少一名值班员参加了演练。",
+    "correct_negatives": [
+      "没有任何值班员参加演练。",
+      "所有值班员都没有参加演练。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9465164694771943,
+      0.6899427607980985,
+      0.9655855592021618,
+      0.8532403626019822,
+      0.8820068963908159
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "M_must",
+    "category": "necessity",
+    "source": "按规定，林岚必须佩戴护目镜。",
+    "winner": "按规定，林岚必须佩戴护目镜。",
+    "correct_negatives": [
+      "按规定，林岚不必佩戴护目镜。",
+      "规定并未要求林岚佩戴护目镜。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.9177722792802456,
+      0.9014213247587101,
+      0.9617607965582979,
+      0.9161295813551499,
+      0.9352271458678407
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "M_can",
+    "category": "permission",
+    "source": "按规定，周宁可以使用这台设备。",
+    "winner": "按规定，周宁可以使用这台设备。",
+    "correct_negatives": [
+      "按规定，周宁不可以使用这台设备。",
+      "规定不允许周宁使用这台设备。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9138225224132623,
+      0.9523610123861113,
+      0.9689414172566896,
+      0.8754644418048725,
+      0.9003038614593413
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "lexical",
+    "category": "mention_and_double_negation",
+    "source": "周宁在周一阅读了题为《没有》的小说。",
+    "winner": "周宁在周一阅读了题为《没有》的小说。",
+    "correct_negatives": [
+      "周宁在周一没有阅读题为《没有》的小说。",
+      "周宁在周一未读过题为《没有》的小说。"
+    ],
+    "rank": 3,
+    "recall1": 0.0,
+    "cosines": [
+      0.8776983041243985,
+      0.9163346610490513,
+      0.9690960446987896,
+      0.9639764494995597,
+      0.8559726263639114
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "sentiment",
+    "category": "sentiment_not_complement",
+    "source": "林岚喜欢这幅画。",
+    "winner": "林岚喜欢这幅画。",
+    "correct_negatives": [
+      "林岚不喜欢这幅画。",
+      "林岚并不喜欢这幅画。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.9281986780053418,
+      0.7922796508534684,
+      0.9497108156726481,
+      0.7651103736999851,
+      0.9231441801037661
+    ]
+  },
+  {
+    "representation": "l28_last",
+    "seed": 43,
+    "method": "source_token_ridge",
+    "id": "antonym",
+    "category": "antonym_not_complement",
+    "source": "这个房间很明亮。",
+    "winner": "这个房间很明亮。",
+    "correct_negatives": [
+      "这个房间并不很明亮。",
+      "这个房间算不上很明亮。"
+    ],
+    "rank": 2,
+    "recall1": 0.0,
+    "cosines": [
+      0.917864328542993,
+      0.9001931681026154,
+      0.9382855484933708,
+      0.8846282427312236,
+      0.8800573506853354
+    ]
+  }
+]

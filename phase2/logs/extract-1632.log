@@ -1,0 +1,89 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.86s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.71s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.60s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.47s/it]
+Pilot and embedding identity passed; expanding to 4568 texts
+extracted 0 elapsed 14.3
+extracted 640 elapsed 17.1
+extracted 1280 elapsed 19.7
+extracted 1920 elapsed 22.3
+extracted 2560 elapsed 24.9
+extracted 3200 elapsed 27.5
+extracted 3840 elapsed 30.1
+extracted 4480 elapsed 32.6
+{
+  "utc": "2026-09-27T17:56:22.353193+00:00",
+  "seconds": 33.7203049659729,
+  "gpu": "NVIDIA B300 SXM6 AC",
+  "gpu_count": 1,
+  "slurm_job_id": "1632",
+  "peak_gpu_gb": 28.862152192,
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "config": {
+    "model": "/dataset1/zailong/models/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "dtype": "float32",
+    "representations": [
+      [
+        0,
+        "mean"
+      ],
+      [
+        14,
+        "mean"
+      ],
+      [
+        14,
+        "last"
+      ],
+      [
+        28,
+        "last"
+      ]
+    ],
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "ranks": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "alphas": [
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "seen_forms": [
+      0,
+      1,
+      2
+    ],
+    "unseen_forms": [
+      3,
+      4
+    ],
+    "input": "raw text, no special tokens, no chat template",
+    "data_seed": 20260928,
+    "primary": {
+      "representation": "l14_mean",
+      "split": "iid",
+      "candidate_forms": "unseen",
+      "metric": "multi_positive_recall1",
+      "comparison": "lowrank minus dev-selected surface baseline"
+    }
+  },
+  "data_sha256": "6e3491146600059e3fa2b16dbd4ae4a5c353d9dc097c3e18dbacaceabf5896e7",
+  "max_layer0_cache_abs_error": 6.7732550956822735e-09
+}

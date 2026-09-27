@@ -1,0 +1,62 @@
+[
+  {
+    "text": "周一当天，周宁整理了运维档案。",
+    "representation": "l0_mean",
+    "relative_error": 0.0
+  },
+  {
+    "text": "周一当天，周宁整理了运维档案。",
+    "representation": "l14_mean",
+    "relative_error": 9.13481017050799e-06
+  },
+  {
+    "text": "周一当天，周宁整理了运维档案。",
+    "representation": "l14_last",
+    "relative_error": 2.1385356376413256e-05
+  },
+  {
+    "text": "周一当天，周宁整理了运维档案。",
+    "representation": "l28_last",
+    "relative_error": 9.942929864337202e-06
+  },
+  {
+    "text": "周一当天，许澄未检查矿井支架。",
+    "representation": "l0_mean",
+    "relative_error": 0.0
+  },
+  {
+    "text": "周一当天，许澄未检查矿井支架。",
+    "representation": "l14_mean",
+    "relative_error": 6.272115342653706e-07
+  },
+  {
+    "text": "周一当天，许澄未检查矿井支架。",
+    "representation": "l14_last",
+    "relative_error": 3.89562137570465e-06
+  },
+  {
+    "text": "周一当天，许澄未检查矿井支架。",
+    "representation": "l28_last",
+    "relative_error": 2.9656362130481284e-06
+  },
+  {
+    "text": "“周一当天，许澄清理了沉淀池淤泥”这一说法不属实。",
+    "representation": "l0_mean",
+    "relative_error": 0.0
+  },
+  {
+    "text": "“周一当天，许澄清理了沉淀池淤泥”这一说法不属实。",
+    "representation": "l14_mean",
+    "relative_error": 8.304430139105534e-07
+  },
+  {
+    "text": "“周一当天，许澄清理了沉淀池淤泥”这一说法不属实。",
+    "representation": "l14_last",
+    "relative_error": 4.658142188418424e-06
+  },
+  {
+    "text": "“周一当天，许澄清理了沉淀池淤泥”这一说法不属实。",
+    "representation": "l28_last",
+    "relative_error": 3.7152908589632716e-06
+  }
+]

@@ -1,0 +1,5 @@
+/cache/*.npy
+/cache/*.npz
+/cache/*.pt
+/results/b_per_query.csv
+/results/a_per_item.jsonl

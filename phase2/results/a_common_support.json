@@ -1,0 +1,9 @@
+{
+  "common_strata": [],
+  "counts": {
+    "negation": 0,
+    "time": 0,
+    "emphasis": 0
+  },
+  "interpretation": "If common support is empty, no exact matched causal contrast is claimed."
+}
